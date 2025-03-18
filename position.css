@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  .container {
+    position: relative;
+    height: 1500px;
+    
+  }
+  
+  .relative-box {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    background-color: lightblue;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .absolute-box {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    background-color: lightcoral;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .fixed-box {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: lightgreen;
+    padding: 20px;
+  }
+  
+  .sticky-box {
+    position: sticky;
+    top: 0;
+    background-color: lightyellow;
+    padding: 20px;
+    margin: 20px;
+  }
+  
